@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Page</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      .navbar {
+        margin-bottom: 20px;
+      }
+      .footer {
+        background-color: #f8f9fa;
+        padding: 20px 0;
+        text-align: center;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+      <a class="navbar-brand" href="#">Logo</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container banner col-12 d-flex align-items-center my-5">
+      <div
+        class="ml-5 col-md-6 py-4  rounded top-2 bg-secondary"
+      >
+        <p>address: USA, Los Angles</p>
+        <p>email: test@test.com</p>
+        <p>phone: +1 555 555</p>
+        <button class="btn btn-secondary border font-weight-bold">See Profile</button>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="jumbotron text-center">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+          aliquid dolor eaque est dolore eveniet recusandae ea earum dolorem sed
+          magni illo voluptatibus, quia exercitationem, molestias repudiandae
+          quod enim possimus. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Commodi vitae id adipisci nihil perferendis. Iste ex officiis
+          porro. Repellat odio ea est tenetur. Voluptas voluptatibus quis at
+          eius harum unde. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Cumque officiis adipisci sed nemo! Animi cumque tempora nisi
+          repellat, molestias vel error earum voluptas accusantium illum
+          distinctio deleniti soluta harum? Sapiente.
+        </p>
+        <button class="btn btn-primary" type="button" disabled>
+          <span
+            class="spinner-border spinner-border-sm"
+            role="status"
+            aria-hidden="true"
+          ></span>
+          Loading...
+        </button>
+      </div>
+    </div>
+
+    <div class="container-fluid mb-5">
+      <div class="row">
+        <div class="card m-6 mx-auto text-center col-md-2">
+          <img src="./img/cache_60890167.jpg" class="card-img-top" alt="" />
+          <h2>John Doe</h2>
+          <p>This is a sample text.</p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+        <div class="card m-3 mx-auto text-center col-md-2">
+          <img src="./img/cache_60890167.jpg" class="card-img-top" alt="" />
+          <h2>John Doe</h2>
+          <p>This is a sample text.</p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+        <div class="card m-3 mx-auto text-center col-md-2">
+          <img src="./img/cache_60890167.jpg" class="card-img-top" alt="" />
+          <h2>John Doe</h2>
+          <p>This is a sample text.</p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+      <div class="container-fluid">
+        <div
+          class="jumbotron text-center"
+          style="
+            background: linear-gradient(
+              to right,
+              #b4aaaa,
+              #4286f4
+            ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          "
+        >
+          <h4>Lorem ipsum dolor sit amet</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+            aliquid dolor eaque est dolore eveniet recusandae ea earum dolorem
+            sed magni illo voluptatibus, quia exercitationem, molestias
+            repudiandae quod enim possimus. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Commodi vitae id adipisci nihil
+            perferendis. Iste ex officiis porro. Repellat odio ea est tenetur.
+            Voluptas voluptatibus quis at eius harum unde. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Cumque officiis adipisci sed
+            nemo! Animi cumque tempora nisi repellat, molestias vel error earum
+            voluptas accusantium illum distinctio deleniti soluta harum?
+            Sapiente.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
